@@ -1,0 +1,168 @@
+h1, h2, h3, h4, h5, h6, p{
+    font-family: "Blender Pro";
+    color: white;
+}
+
+body{
+    background-image: url(../img/image\ 4.svg);
+    background-repeat: no-repeat;
+    background-size: 430px 926px;
+}
+
+.img{
+    width: 18px;
+}
+
+.position_header{
+    display:flex;
+    justify-content:center;
+}
+
+.header{
+    background: rgba(255, 255, 255, 0.274);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.back{
+    display: flex;
+}
+
+.header img{
+    width: 18px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.header img:hover{
+    transform: scale(1.5);
+}
+
+
+
+.text-header h2{
+    display: flex;
+    justify-content:center;
+    color: white;
+    margin: 10;
+}
+
+.pos{
+    display: flex;
+    justify-content: center;
+}
+
+.hero{
+    background: rgba(238, 238, 238, 0.15);
+    border: 1px solid rgba(238, 238, 238, 0.25);
+    box-sizing: border-box;
+    border-radius:15px;
+    margin-top: 40px;
+    backdrop-filter: blur(5px);
+    width: 80%
+}
+
+.hero-box{
+    padding-left: 10px;
+}
+
+.hero-box p, h3{
+    font-weight: 300;
+}
+
+.hero-box2{
+    padding-left: 10px;
+}
+
+.grad-liner{
+    display: flex;
+    justify-content:center;
+    width: 90%;
+    height: 10px;
+    background: linear-gradient(83.24deg, #E98FFF 0%, #00F0FF 99.34%);
+    border-radius: 36px;
+}
+
+.grad-liner2{
+    background: rgb(156, 11, 240);
+    display: flex;
+    justify-content:center;
+    width: 90%;
+    height: 10px;
+    border-radius: 36px;
+}
+
+.hero-tit h3, p{
+    padding-top: 15px;
+    margin:0;
+}
+
+.com-box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.com-box-text p{
+    padding:25px;
+}
+
+.number{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.number p{
+    font-weight: 300;
+}
+
+.number2{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.com-pos{
+    display: flex;
+    justify-content: center;
+}
+
+.com-box{
+    width:250px;
+    height: 70px;
+    background:rgba(255, 255, 255, 0.281);
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.26);
+    margin-bottom: 20px;
+}
+
+
+.box{
+    margin-top: 300px;
+}
+
+.tt h4{
+    margin: 7 0 7 0;
+}
+
+.box-button{
+    display:flex;
+    justify-content:center;
+}
+
+.box-button button{
+    border-radius: 15px;
+    background: rgba(172, 172, 172, 0.322);
+    border:none;
+    width: 270px;
+}
+
+.box-button h3{
+    font-size: 25px;
+    margin: 15 0 15 0;
+    
+}
